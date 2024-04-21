@@ -1,0 +1,27 @@
+.popup {
+    width: 180px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    font-size: 18px;
+    padding: 10px; /* Додано відступи */
+}
+
+.text-content {
+    margin-bottom: 10px; /* Відступ між текстом і кнопками */
+}
+
+.close-button, .additional-button {
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-bottom: 5px; /* Відступ між кнопками */
+}
+
+.popup-button {
+    height: 35px;
+    width: 100%; /* Ширина кнопок в 100% */
+}
